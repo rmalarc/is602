@@ -47,6 +47,9 @@ class TextFromURL:
 class KeywordsFromText:
     def __init__(self):
         self.alchemy_api = AlchemyAPI()
+        self.text = ""
+        self.keywords = []
+
 
     def process_keywords(self, text):
         """
@@ -56,10 +59,31 @@ class KeywordsFromText:
         :return:
         """
         self.text = text
-        self.response = self.alchemy_api.keywords('text', self.text, {'sentiment': 1})
-        if self.response['status'] != 'OK':
-            print('Error in text extraction call: ', self.response['statusInfo'])
-        return
+
+        response = self.alchemy_api.keywords('text', self.text, {'sentiment': 1})
+        if response['status'] != 'OK':
+            print('Error in text extraction call: ', response['statusInfo'])
+        else:
+            self.keywords = response['keywords']
+        return self
+
+    def sort_by(self, attribute_name, sort_order):
+
+        """
+        Sorts the keywords list by the given attribute name in the specified sort order
+
+        :param attribute_name:
+        :param sort_order:
+        :return:
+        """
+        print(self.keywords)
+        reverse_order = (sort_order != "asc")
+        self.keywords = sorted(self.keywords
+                               , key=lambda k: k[attribute_name]
+                               , reverse=reverse_order)
+        print(self.keywords)
+
+        return self
 
     def print_keywords(self, show_top=0):
         """
@@ -68,10 +92,10 @@ class KeywordsFromText:
         :param show_top: top-n keywords to display. The default shows all keywords
         :return:
         """
-        if hasattr(self,'response'):
-            if self.response['status'] == 'OK':
+        try:
+            if self.keywords:
                 i = 0
-                for keyword in self.response['keywords']:
+                for keyword in self.keywords:
                     print('keyword: ', keyword['text'].encode('utf-8'))
                     print('relevance: ', keyword['relevance'])
                     print('sentiment: ', keyword['sentiment']['type'])
@@ -79,11 +103,9 @@ class KeywordsFromText:
                     i += 1
                     if i == show_top:
                         break
-            else:
-                print("process_keywords did not succeed. Check the URL")
-        else:
-            print("Keywords haven't been processed yet. Run process_keywords()")
-        return
+        except:
+            print("Error: ", sys.exc_info()[0])
+        return self
 
 
 if __name__ == "__main__":
@@ -98,6 +120,7 @@ if __name__ == "__main__":
     text = text_extractor.extract_text(url)
     print("Extracting keywords using the Alchemy API:")
     keyword_extractor.process_keywords(text)
+    keyword_extractor.sort_by('relevance','desc')
     keyword_extractor.print_keywords(10)
 
     print("==========================================")
@@ -108,5 +131,6 @@ if __name__ == "__main__":
     text = text_extractor.extract_text_by_element_id(url,element_id)
     print("Extracting keywords using the Alchemy API: ")
     keyword_extractor.process_keywords(text)
+    keyword_extractor.sort_by('relevance','desc')
     keyword_extractor.print_keywords(10)
 
