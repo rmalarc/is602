@@ -181,11 +181,13 @@ def regression_from_file(filename):
     lr = LinearRegression()
     lr.data_from_csv(filename,2,1)
     lr.regression()
+    lr.print_equation()
 
 def regression_from_file_scipy(filename):
     lr = LinearRegression()
     lr.data_from_csv(filename,2,1)
     lr.scipy_regression()
+    lr.print_equation()
 
 filename = "/Users/malarcon/Google Drive/CUNY/IS602/assignments/brainandbody.csv"
 
@@ -193,7 +195,7 @@ filename = "/Users/malarcon/Google Drive/CUNY/IS602/assignments/brainandbody.csv
 
 if __name__ == "__main__":
 
-    n = 1000
+    n = 1
 
 
     t = timeit.Timer("regression_from_file(filename)",setup=setup)
