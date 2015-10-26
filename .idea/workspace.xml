@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a34f67e4-0cc3-42eb-a1f6-cceabea117a1" name="Default" comment="Homework6">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="a34f67e4-0cc3-42eb-a1f6-cceabea117a1" name="Default" comment="Homework6" />
     <ignored path="assignments.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hw8_alarcon.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hw8_alarcon.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hw8_alarcon.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.74285716" vertical-offset="1690" max-vertical-offset="2040">
-              <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+            <state vertical-scroll-proportion="-31.851852" vertical-offset="1000" max-vertical-offset="2040">
+              <caret line="124" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
               <folding>
                 <element signature="e#1#32#0" expanded="true" />
               </folding>
@@ -60,14 +58,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="smekala.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smekala.py">
+      <file leaf-file-name="hw9_alarcon.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hw9_alarcon.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.5555556" vertical-offset="510" max-vertical-offset="1620">
-              <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
-              <folding>
-                <element signature="e#30#47#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="2.586207" vertical-offset="0" max-vertical-offset="1095">
+              <caret line="65" column="40" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -144,6 +140,7 @@
         <option value="$PROJECT_DIR$/hw7_alarcon.py" />
         <option value="$PROJECT_DIR$/smekala.py" />
         <option value="$PROJECT_DIR$/hw8_alarcon.py" />
+        <option value="$PROJECT_DIR$/hw9_alarcon.py" />
       </list>
     </option>
   </component>
@@ -220,26 +217,7 @@
       <recent name="$PROJECT_DIR$/week4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.hw8_alarcon">
-    <configuration default="false" name="hw5_alarcon" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="assignments" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hw5_alarcon.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.hw9_alarcon">
     <configuration default="false" name="hw6_alarcon" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -310,6 +288,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="assignments" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/smekala.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="hw9_alarcon" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="assignments" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hw9_alarcon.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -439,19 +436,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.hw5_alarcon" />
-      <item index="1" class="java.lang.String" itemvalue="Python.hw6_alarcon" />
-      <item index="2" class="java.lang.String" itemvalue="Python.hw7_alarcon" />
-      <item index="3" class="java.lang.String" itemvalue="Python.hw8_alarcon" />
-      <item index="4" class="java.lang.String" itemvalue="Python.smekala" />
+      <item index="0" class="java.lang.String" itemvalue="Python.hw6_alarcon" />
+      <item index="1" class="java.lang.String" itemvalue="Python.hw7_alarcon" />
+      <item index="2" class="java.lang.String" itemvalue="Python.hw8_alarcon" />
+      <item index="3" class="java.lang.String" itemvalue="Python.smekala" />
+      <item index="4" class="java.lang.String" itemvalue="Python.hw9_alarcon" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.hw8_alarcon" />
-        <item index="1" class="java.lang.String" itemvalue="Python.smekala" />
-        <item index="2" class="java.lang.String" itemvalue="Python.hw7_alarcon" />
-        <item index="3" class="java.lang.String" itemvalue="Python.hw6_alarcon" />
-        <item index="4" class="java.lang.String" itemvalue="Python.hw5_alarcon" />
+        <item index="0" class="java.lang.String" itemvalue="Python.hw9_alarcon" />
+        <item index="1" class="java.lang.String" itemvalue="Python.hw8_alarcon" />
+        <item index="2" class="java.lang.String" itemvalue="Python.smekala" />
+        <item index="3" class="java.lang.String" itemvalue="Python.hw7_alarcon" />
+        <item index="4" class="java.lang.String" itemvalue="Python.hw6_alarcon" />
       </list>
     </recent_temporary>
   </component>
@@ -461,14 +458,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="39" width="1260" height="693" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24939467" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3283582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3283582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39966834" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -958,16 +955,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smekala.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5555556" vertical-offset="510" max-vertical-offset="1620">
-          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
-          <folding>
-            <element signature="e#30#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hw5_alarcon.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2308" max-vertical-offset="2685">
@@ -980,11 +967,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hw8_alarcon.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74285716" vertical-offset="1690" max-vertical-offset="2040">
-          <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+        <state vertical-scroll-proportion="-31.851852" vertical-offset="1000" max-vertical-offset="2040">
+          <caret line="124" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
           <folding>
             <element signature="e#1#32#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw9_alarcon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.586207" vertical-offset="0" max-vertical-offset="1095">
+          <caret line="65" column="40" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
