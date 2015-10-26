@@ -1,0 +1,64 @@
+---------------
+Which hostname or IP address made the most requests?
+sandy.rtptok1.epa.gov    294
+Name: requester, dtype: int64
+
+
+---------------
+Which hostname or IP address received the most total bytes from the server? How many bytes did it receive?
+                            size
+requester
+piankhi.cs.hamptonu.edu  7267751
+
+
+---------------
+During what hour was the server the busiest in terms of requests?
+       request
+hour
+00- 1      684
+01- 2      434
+02- 3      399
+03- 4      248
+04- 5      347
+05- 6      374
+06- 7      303
+07- 8      846
+08- 9     1994
+09-10     3075
+10-11     3209
+11-12     3820
+12-13     3827
+13-14     4391
+14-15     4716
+15-16     4284
+16-17     4042
+17-18     2793
+18-19     1820
+19-20     1493
+20-21     1310
+21-22     1015
+22-23     1117
+23-24     1185
+As we can see above, the time between 14-15 is the busiest with a total of 4716 requests in the date range
+
+
+---------------
+Which .gif image was downloaded the most during the day?
+                              request
+filename
+/icons/circle_logo_small.gif     3203
+
+
+---------------
+What HTTP reply codes were sent other than 200?
+             request
+http_status
+304             5300
+302             4506
+404              590
+403              272
+501              272
+500               69
+400                6
+
+Process finished with exit code 0
