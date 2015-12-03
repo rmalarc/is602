@@ -25,7 +25,7 @@ We will attempt to obtain the following features from the captured images:
 * Object count: We will obtain object count after applying various thresholding schemes.
 * Standard deviation of the value of the pixels
 
-[Click here](project_image_processing.ipynb) For details
+[Click here](project_image_processing_and_feature_extraction.ipynb) For details
 
 ## Data Integration
 
@@ -48,7 +48,7 @@ The goal of this final section is to analyze the captured traffic data along the
 
 We seek to find out if it is possible to build a model that estimates traffic speed based on traffic camera images.
 
-[Click here](project_data_analysis.ipynb) For details
+[Click here](project_analysis.ipynb) For details
 
 ## Conclusion
 
