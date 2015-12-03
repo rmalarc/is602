@@ -14,7 +14,7 @@ We identified the following datasources that we will use in order to generate th
 * NYC Real-Time Traffic Speed Data: https://data.cityofnewyork.us/Transportation/Real-Time-Traffic-Speed-Data/xsat-x5sa
 * Current Weather Data: http://openweathermap.org/current
 
-**[Click here for details](project_data_capturing.ipynb)*
+**[Click here for details](project_data_capturing.ipynb)**
 
 ## Image Feature Extraction
 
