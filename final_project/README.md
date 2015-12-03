@@ -1,4 +1,4 @@
-# Image Analysis:
+# Image Analysis: Using Traffic Camera Images to Estimate Traffic Conditions
 
 **Author: Mauricio Alarcon <rmalarc@msn.com>**
 
