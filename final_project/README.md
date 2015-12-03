@@ -14,7 +14,7 @@ We identified the following datasources that we will use in order to generate th
 * NYC Real-Time Traffic Speed Data: https://data.cityofnewyork.us/Transportation/Real-Time-Traffic-Speed-Data/xsat-x5sa
 * Current Weather Data: http://openweathermap.org/current
 
-[Click here](project_data_capturing.ipynb) for details
+**[Click here for details](project_data_capturing.ipynb)*
 
 ## Image Feature Extraction
 
@@ -25,7 +25,7 @@ We will attempt to obtain the following features from the captured images:
 * Object count: We will obtain object count after applying various thresholding schemes.
 * Standard deviation of the value of the pixels
 
-[Click here](project_image_processing_and_feature_extraction.ipynb) For details
+**[Click here for details](project_image_processing_and_feature_extraction.ipynb)**
 
 ## Data Integration
 
@@ -40,7 +40,7 @@ The resulting integrated dataset will include the following fields:
 * Time of day (Hour)
 * Is Daytime
 
-[Click here](project_traffic_and_weather_data_integration.ipynb) For details
+**[Click here for details](project_traffic_and_weather_data_integration.ipynb)**
 
 ## Data Analysis
 
@@ -48,7 +48,7 @@ The goal of this final section is to analyze the captured traffic data along the
 
 We seek to find out if it is possible to build a model that estimates traffic speed based on traffic camera images.
 
-[Click here](project_analysis.ipynb) For details
+**[Click here for details](project_analysis.ipynb)**
 
 ## Conclusion
 
